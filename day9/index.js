@@ -23,7 +23,7 @@ console.log(`Answer 1/2 : ${shortRope.visitedNodes()}`)
 //
 const longRopes = new Rope(lines.slice(), 10)
 longRopes.executeMoves()
-console.log(`Answer 1/2 : ${longRopes.visitedNodes()}`)
+console.log(`Answer 2/2 : ${longRopes.visitedNodes()}`)
 
 
 
