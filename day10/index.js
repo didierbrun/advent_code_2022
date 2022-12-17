@@ -9,7 +9,7 @@ const Clock = require('./Clock.js')
 //
 // Parse datas
 //
-const lines = parseInput("./input.txt")
+const lines = parseInput("./example.txt")
 const clock = new Clock(lines.slice())
 clock.execute()
 
